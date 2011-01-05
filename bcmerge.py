@@ -37,17 +37,3 @@ elif p.returncode == 1:
     sys.exit(-1)
 else:
     sys.exit(p.returncode)
-
-# # Configure your favorite diff program here.
-
-
-# # Subversion provides the paths we need as the last three parameters.
-
-# # Call the merge command (change the following line to make sense for
-# # your merge program).
-# os.execv(cmd[0], cmd)
-
-# # After performing the merge, this script needs to print the contents
-# # of the merged file to stdout.  Do that in whatever way you see fit.
-# # Return an errorcode of 0 on successful merge, 1 if unresolved conflicts
-# # remain in the result.  Any other errorcode will be treated as fatal.
